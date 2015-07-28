@@ -13,7 +13,7 @@
 # menuTitle: String. Title of menu item. If not defined, `title` property is used
 # menuHidden: Boolean. Should current item and its children appear in menu
 # menuOrder: Number. Order of item in its parent. Sorting is ascending.
-_ = require 'underscore'
+_ = require 'lodash'
 
 reIndex = /^index\.\w+$/i
 

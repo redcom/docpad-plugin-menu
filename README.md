@@ -2,7 +2,7 @@ A [DocPad](https://github.com/bevry/docpad) plugin that automatically generates 
 
 ## Installation ##
 
-Run `npm install --save docpad-plugin-menu` command in your DocPad project root.
+Run `npm install --save docpad-plugin-menu` command in your DocPad project root or `docpad install menu` to install with docpad
     
 ## How it works ##
 
@@ -83,7 +83,7 @@ You can add any `menu*` meta-data into your document and its value will be avail
             <!-- Do something if menuFoo equals '1' -->
         <% end %>
     <% end %>
-</ul>   
+</ul>
 <% end %>
 ```
 
